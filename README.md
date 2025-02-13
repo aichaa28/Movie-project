@@ -31,7 +31,19 @@ This project demonstrates how to extract, clean, analyze, and model movie review
    streamlit run streamlit.py
    ```
 
+## Natural Language Processing (NLP) Approach
+
+This project heavily relies on NLP techniques to preprocess and analyze movie reviews. The following steps were implemented:
+
+- **Tokenization**: Using `nltk.word_tokenize()` to split text into individual words.
+- **Stopword Removal**: Filtering out common words using `nltk.corpus.stopwords`.
+- **Lemmatization**: Reducing words to their base form with `WordNetLemmatizer`.
+- **TF-IDF Vectorization**: Converting text into numerical representations using `TfidfVectorizer` from `sklearn.feature_extraction.text`.
+- **Sentiment Prediction**: Training some models on processed textual data to predict sentiment scores.
+
 ## Tested Models
 
 Different models have been evaluated in the `try/` folder. Each notebook contains an implementation and performance evaluation.
+
+
 
