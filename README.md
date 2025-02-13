@@ -4,6 +4,7 @@ This project demonstrates how to extract, clean, analyze, and model movie review
 
 ## Project Structure
 
+- `Movie_critics_report.pdf` : a detailed report of each step of the project
 - `try/` : Contains different models tested with their associated notebooks.
 - `EDA-notebook.ipynb` : Exploratory Data Analysis (EDA).
 - `Final-model.ipynb` : Notebook for the final selected model.
